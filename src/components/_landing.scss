@@ -18,4 +18,9 @@
 
 .explore-btn {
     margin-top: 30px;
+    transition: all 0.2s ease-in-out 100ms;
+}
+
+.explore-btn:hover {
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.186);
 }

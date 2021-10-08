@@ -71,6 +71,11 @@ h3 {
             a {
                 cursor: pointer;
                 text-decoration: none;
+                transition: color 0.5s ease-in;
+            }
+
+            a:hover {
+                color: $hoverColor;
             }
         }
     }

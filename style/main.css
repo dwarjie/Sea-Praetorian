@@ -83,6 +83,12 @@ h3 {
 .navigation ul li a {
   cursor: pointer;
   text-decoration: none;
+  -webkit-transition: color 0.5s ease-in;
+  transition: color 0.5s ease-in;
+}
+
+.navigation ul li a:hover {
+  color: #ffb0b0;
 }
 
 .navigation .active {
@@ -114,6 +120,13 @@ h3 {
 
 .explore-btn {
   margin-top: 30px;
+  -webkit-transition: all 0.2s ease-in-out 100ms;
+  transition: all 0.2s ease-in-out 100ms;
+}
+
+.explore-btn:hover {
+  -webkit-box-shadow: 0 10px 5px rgba(0, 0, 0, 0.186);
+          box-shadow: 0 10px 5px rgba(0, 0, 0, 0.186);
 }
 
 .explore {
@@ -121,6 +134,23 @@ h3 {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+#modal {
+  position: absolute;
+  z-index: 2;
+  background-color: #071231c2;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+iframe {
+  text-align: center;
+  width: 60%;
+  height: 500px;
+  margin: 800px auto;
 }
 
 .shade-explore {
@@ -141,13 +171,13 @@ h3 {
   height: 100%;
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.09);
           box-shadow: 0 5px 5px rgba(0, 0, 0, 0.09);
-  -webkit-transition: -webkit-box-shadow  0.5s ease-in-out 100ms;
-  transition: -webkit-box-shadow  0.5s ease-in-out 100ms;
-  transition: box-shadow  0.5s ease-in-out 100ms;
-  transition: box-shadow  0.5s ease-in-out 100ms, -webkit-box-shadow  0.5s ease-in-out 100ms;
+  -webkit-transition: -webkit-box-shadow 0.5s ease-in-out 100ms;
+  transition: -webkit-box-shadow 0.5s ease-in-out 100ms;
+  transition: box-shadow 0.5s ease-in-out 100ms;
+  transition: box-shadow 0.5s ease-in-out 100ms, -webkit-box-shadow 0.5s ease-in-out 100ms;
 }
 
-.shade {
+.mask .shade {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -196,7 +226,7 @@ h3 {
   border-radius: 10px;
   overflow: hidden;
   width: 100%;
-  height: 400px;
+  height: 500px;
 }
 
 .trending .mask {
