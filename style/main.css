@@ -101,7 +101,7 @@ h3 {
 }
 
 .landing {
-  background-image: url("/src/img/bg.jpg");
+  background-image: url("../img/bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -130,7 +130,7 @@ h3 {
 }
 
 .explore {
-  background-image: url("/src/img/bg-explore.png");
+  background-image: url("../img/bg-explore.png");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -231,7 +231,7 @@ iframe {
 
 .trending .mask {
   border-radius: 10px;
-  background-image: url("/src/img/trending.jpg");
+  background-image: url("../img/trending.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -263,19 +263,19 @@ iframe {
 }
 
 .romantic .anime1 {
-  background-image: url("/src/img/your_name.jpg");
+  background-image: url("../img/your_name.jpg");
 }
 
 .romantic .anime2 {
-  background-image: url("/src/img/garden_of_words.jpg");
+  background-image: url("../img/garden_of_words.jpg");
 }
 
 .romantic .anime3 {
-  background-image: url("/src/img/hello_world.jpg");
+  background-image: url("../img/hello_world.jpg");
 }
 
 .romantic .anime4 {
-  background-image: url("/src/img/fireworks.jpg");
+  background-image: url("../img/fireworks.jpg");
 }
 
 .fantasy {
@@ -302,18 +302,18 @@ iframe {
 }
 
 .fantasy .anime1 {
-  background-image: url("/src/img/whisker_away.png");
+  background-image: url("../img/whisker_away.png");
 }
 
 .fantasy .anime2 {
-  background-image: url("/src/img/ponyo.jpg");
+  background-image: url("../img/ponyo.jpg");
 }
 
 .fantasy .anime3 {
-  background-image: url("/src/img//moving_castle.jpg");
+  background-image: url("../img/moving_castle.jpg");
 }
 
 .fantasy .anime4 {
-  background-image: url("/src/img/totoro.jpg");
+  background-image: url("../img/totoro.jpg");
 }
 /*# sourceMappingURL=main.css.map */
