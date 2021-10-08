@@ -1,0 +1,89 @@
+@import "variables";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    vertical-align: mi;
+    font-family: "Montserrat", sans-serif;
+    color: $textColor;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.button {
+    background-color: #07123162;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 3px solid $textColor;
+    text-align: center;
+    line-height: 45px;
+    margin: 0 auto;
+    padding: 0;
+    width: 200px;
+    height: 50px;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.logo {
+    font-family: "Pacifico", cursive;
+    font-size: 32px;
+}
+
+.navigation {
+    margin-bottom: 100px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+    ul {
+        font-weight: 600;
+        font-size: 18px;
+
+        li {
+            list-style: none;
+            float: left;
+            margin-left: 70px;
+
+            a {
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .active {
+        color: $activeColor;
+    }
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@import "landing";
+@import "explore";

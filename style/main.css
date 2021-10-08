@@ -1,0 +1,289 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: mi;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 62px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.button {
+  background-color: #07123162;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+  text-align: center;
+  line-height: 45px;
+  margin: 0 auto;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 32px;
+}
+
+.navigation {
+  margin-bottom: 100px;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.navigation ul {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.navigation ul li {
+  list-style: none;
+  float: left;
+  margin-left: 70px;
+}
+
+.navigation ul li a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navigation .active {
+  color: #F88B8B;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.landing {
+  background-image: url("/img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.shade {
+  position: absolute;
+  background-color: #07123156;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.explore-btn {
+  margin-top: 30px;
+}
+
+.explore {
+  background-image: url("/img/bg-explore.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.shade-explore {
+  position: absolute;
+  background-color: #323364d4;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.mask {
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.09);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.09);
+  -webkit-transition: -webkit-box-shadow  0.5s ease-in-out 100ms;
+  transition: -webkit-box-shadow  0.5s ease-in-out 100ms;
+  transition: box-shadow  0.5s ease-in-out 100ms;
+  transition: box-shadow  0.5s ease-in-out 100ms, -webkit-box-shadow  0.5s ease-in-out 100ms;
+}
+
+.shade {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+  margin: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out 100ms;
+  transition: all 0.5s ease-in-out 100ms;
+}
+
+.mask:hover {
+  -webkit-box-shadow: 0 10px 5px rgba(0, 0, 0, 0.186);
+          box-shadow: 0 10px 5px rgba(0, 0, 0, 0.186);
+}
+
+.mask:hover .shade {
+  opacity: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #323364c6;
+}
+
+.explore h2 {
+  margin-bottom: 35px;
+}
+
+.mask-space {
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.trending {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+}
+
+.trending .mask {
+  border-radius: 10px;
+  background-image: url("/img/trending.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.romantic {
+  width: 100%;
+}
+
+.romantic .romantic-anime {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.romantic .mask {
+  position: relative;
+  width: 250px;
+  height: 400px;
+}
+
+.romantic .anime1 {
+  background-image: url("/img/your_name.jpg");
+}
+
+.romantic .anime2 {
+  background-image: url("/img/garden_of_words.jpg");
+}
+
+.romantic .anime3 {
+  background-image: url("/img/hello_world.jpg");
+}
+
+.romantic .anime4 {
+  background-image: url("/img/fireworks.jpg");
+}
+
+.fantasy {
+  width: 100%;
+}
+
+.fantasy .fantasy-anime {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fantasy .mask {
+  position: relative;
+  width: 250px;
+  height: 400px;
+}
+
+.fantasy .anime1 {
+  background-image: url("/img/whisker_away.png");
+}
+
+.fantasy .anime2 {
+  background-image: url("/img/ponyo.jpg");
+}
+
+.fantasy .anime3 {
+  background-image: url("/img/moving_castle.jpg");
+}
+
+.fantasy .anime4 {
+  background-image: url("/img/totoro.jpg");
+}
+/*# sourceMappingURL=main.css.map */
